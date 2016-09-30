@@ -1,5 +1,9 @@
 #!/bin/sh
 
+chmod +x gpio
+chmod +x adc
+chmod +x serial
+
 echo "GPIO test!"
 ./gpio
 echo "GPIO finshed!"
